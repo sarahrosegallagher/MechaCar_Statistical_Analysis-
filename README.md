@@ -11,3 +11,21 @@
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 * Yes, this linear model effectively predicts mpg. We can see this in the p-value of our summary: our cut off was 0.05 and our p-value far surpassed this threshold with a p-value of 5.35e-11 (standard notation: 0.0000000000535). However, as covered in point 1, the small sample size of 50 cars tempers the strength of the prediction. 
+
+## Summary Statistics on Suspension Coils
+
+[total_summary]
+
+[lot_summary]
+
+1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+* answer 
+
+
+
+
+
+
+
+
