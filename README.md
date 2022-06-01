@@ -23,9 +23,17 @@
 
 * No, the current manufacturing data does not meet this specification. For the total summary, we do see a variance in that falls within the acceptable range for this guideline (62 PSI). Lot 1 (1 PSI) and Lot 2 (8 PSI) also meet the specification. However, Lot 3 has a variance that does not meet the specification at 170 PSI. Lot 3 skewed the total summary variance so that it is not representative of the overall variance in manufacturing.
 
+## T-Tests on Suspension Coils
 
+## Study Design: MechaCar vs Competition
 
+* What metric or metrics are you going to test?
 
+* What is the null hypothesis or alternative hypothesis?
+
+* What statistical test would you use to test the hypothesis? And why?
+
+* What data is needed to run the statistical test?
 
 
 
