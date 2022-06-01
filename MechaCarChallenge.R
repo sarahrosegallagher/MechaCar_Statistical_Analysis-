@@ -27,33 +27,25 @@ lot_summary <- suspension_df %>% group_by(Manufacturing_Lot) %>%
             .groups = "keep" )
 
 #DELIVERABLE 3
-t.test(suspension_df$PSI,
-       mu=1500)
-
-#result: p-value p-value = 0.06028 => fail to reject null, two means are statistically similar 
 
 #Lot 1
-t.test(suspension_df$PSI, 
-       mu=1500, 
-       subset = Manufacturing_Lot %in% "Lot 1" )
-#result: p-value p-value = 0.06028 => fail to reject null, two means are statistically similar 
+t.test(subset(suspension_df, Manufacturing_Lot %in% "Lot1", select=PSI), 
+       mu=1500
+       )
+#result: p-value = 1 => fail to reject null, two means are identical
 
 #Lot 2
-t.test(suspension_df$PSI, 
+t.test(subset(suspension_df, Manufacturing_Lot %in% "Lot2", select=PSI), 
        mu=1500, 
-       subset = Manufacturing_Lot %in% "Lot2" )
-#result: p-value p-value = 0.06028 => fail to reject null, two means are statistically similar 
+       )
+#result: p-value = 0.6072 => fail to reject null, two means are statistically similar (very similar)
 
 
 #Lot 3
-t.test(suspension_df$PSI, 
-       mu=1500, 
-       subset = M[100:150])
-#result: p-value p-value = 0.06028 => fail to reject null, two means are statistically similar 
-
-
-
-
+t.test(subset(suspension_df, Manufacturing_Lot %in% "Lot3", select=PSI), 
+       mu=1500)
+#result: p-value p-value = 0.04168 => reject null, two means are not quite statistically similar 
+       
 
 
 
