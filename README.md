@@ -43,13 +43,34 @@ The findings, as seen in the screenshots below, show that the **overall mean and
 
 ## Study Design: MechaCar vs Competition
 
-* What metric or metrics are you going to test?
+### Safety Metrics Analysis 
 
-* What is the null hypothesis or alternative hypothesis?
+What metric or metrics are you going to test?
 
-* What statistical test would you use to test the hypothesis? And why?
 
-* What data is needed to run the statistical test?
+
+* Safety metrics for MechaCar and a selected competitor (i.e. crashworthiness and crash avoidance/mitigation).
+
+
+What is the null hypothesis or alternative hypothesis?
+
+
+* Ha: There is a difference between the competitor's safety ratings and MechaCar's safety ratings.
+
+
+* Ho: There is no difference between the safety ratings. 
+
+
+
+What statistical test would you use to test the hypothesis? And why?
+
+* We would use a two-sample t-test for the A/B dichotomous data type. 
+
+
+
+What data is needed to run the statistical test?
+
+* We would need continuous measures of safety metrics, running one t-test for each metric to compare the distribution of the means between the two manufacturers. 
 
 
 
